@@ -12,7 +12,7 @@ To use this script, you'll need to have Node.js and the 'smpp' library installed
 Clone this repository to your machine:
 
 ```shell
-git clone https://github.com/telecomsxchange/smpp-client-nodejs.git
+git clone https://github.com/alcall-llc/smpp-client-nodejs.git
 ```
 Change into the project directory:
 
