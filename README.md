@@ -40,6 +40,10 @@ source_addr: 'Google', // Replace your source number (sender id)
 
 short_message: 'Your verification code is  G-' + ID +ii // Replace with your message content
 
+    batchSize: 50,  // nombre de sms par seconde
+    batchInterval: 1000, // insterval de 1 seconde 
+    totalToSend: 200 // nombre total de SMS à envoyer
+
 ```
 
 
@@ -51,6 +55,7 @@ short_message: 'Your verification code is  G-' + ID +ii // Replace with your mes
 
 $ node send.js  // send single message
 $ node perftest.js // send multiple messages per second
+$ node stress-smsroute.js // send multiple messages per second with windows size and max sms to send
 
 ```
 
